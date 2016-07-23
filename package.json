@@ -4,6 +4,7 @@
   "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
   "main": "server.js",
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "test": "mocha spec", 
   "dependencies": {
     "async": "~0.2.8",
     "body-parser": "^1.15.2",
