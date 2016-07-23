@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: ELYq0R4LZ3W7zAWcg3+C+kp+gCvBM4h/AXlsnSUoMT53mt2UUQS3v62qS2x45V8craFMkgaGPHYwx1X+YUw+4PA0dmsflR4m4LLTG3Czpu+48JweB24ilyEc8Yl9byVp/aEI6Sf2ukbkJmYHprgQwUE/b0Z1kIYy+6Ow38k3eb1jD8Llo5iA9dXGKZpbrJgyqc8unlBTQ5n0pXARB+ynmGBvrh9cTNxTyp7x4e2SoXi7FPBv8L5Lwkfyo5j3xXqJ0TaERjk8EF6IMCl/FT8colyrm2sVp6z03q4Wa1Od/yAx9R0C/BezhYTXuNpNyQqCsM9464a5XuNwxhHyBn8lyx7w087Gl8qUNjOlkGw7BoGZ4+12x9Mc5wfLccS6KSoYbADzsggP96FTD9mKRQ+3W/mlTUpzlGHDU7BrP5+3jLEASE/qpkWKsP3BzCOZF9MHwrebOpjHcm1KP1A2b/0aVD+tVGNev9GiDwQVT3g2/3nBidj9nB3ayTLB4PBoeeg/1cizJ8mpg3RWymOTQWF9sk8DccRkeyE4eZ4Q4Eui1VSWwoXx9RVRUm8PfgMpOzz36+eXIF/20wzchhOrqUkh74zWnoamp44NoYdskLEBY73+hFeG5UkSpciLMCag5H175Vjw6pRhEQGqNVAXtqlHwz5n42XNuIsaVEtDZdhoK38=
+  app: pure-hollows-22239
+  on:
+    repo: virenb/mongo-shopping-list
